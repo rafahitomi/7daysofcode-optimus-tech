@@ -1,0 +1,47 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cabecalho__links {
+  display: flex;
+  gap: 32px;
+}
+
+li a {
+  text-decoration: none;
+
+}
+
+.cabecalho__botoes {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.primeiro__botao {
+  text-decoration: none;
+  color: #667085;
+  padding: 10px 18px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.segundo__botao {
+  text-decoration: none;
+  background-color: #8E2424;
+  color: #FFFFFF;
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
