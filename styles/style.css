@@ -13,6 +13,7 @@
   box-sizing: border-box;
   font-family: 'Inter', sans-serif;
   color: var(--cor-cinza);
+  background: var(--cor-branco);
 }
 
 body {
@@ -62,7 +63,7 @@ button {
   padding: 6rem 0;
 }
 
-.sobre__nos span {
+.sobre__nos h4 {
   color: var(--cor-vermelho);
   font-weight: 600;
   font-size: 16px;
@@ -87,31 +88,68 @@ button {
 .metricas {
   display: flex;
   justify-content: space-between;
-  gap: 32px;
-  padding: 0 144px 96px 144px;
+  gap: 2rem;
+  padding: 0 9rem 6rem 9rem;
 }
 
 .metricas div {
-  width: 280px;
-  height: 192px;
+  width: 17.5rem;
+  height: 10rem;
 }
 
 .metricas h2 {
   font-weight: 600;
   font-size: 60px;
   line-height: 72px;
-  color: #8E2424;
+  color: var(--cor-vermelho);
 }
 
 .metricas h3 {
   font-weight: 500;
   font-size: 18px;
   line-height: 28px;
-  color: #101828;
+  color: var(--cor-preto);
 }
 
 .metricas p {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
+}
+
+/* SEÇÃO VAGAS */
+.talentos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8rem 1rem 0 1rem;
+  gap: 1rem;
+}
+
+.talentos h4 {
+  color: var(--cor-vermelho);
+  background: rgba(142, 36, 36, 0.05);
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.talentos h2 {
+  color: #101828;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+}
+
+.talentos p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.talentos img {
+  margin-top: 2rem;
+  width: 80%;
 }
