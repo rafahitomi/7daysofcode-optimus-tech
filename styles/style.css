@@ -82,3 +82,36 @@ button {
   line-height: 30px;
   max-width: 50%;
 }
+
+/* SEÇÃO MÉTRICAS E RESULTADOS */
+.metricas {
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+  padding: 0 144px 96px 144px;
+}
+
+.metricas div {
+  width: 280px;
+  height: 192px;
+}
+
+.metricas h2 {
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 72px;
+  color: #8E2424;
+}
+
+.metricas h3 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #101828;
+}
+
+.metricas p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
