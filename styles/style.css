@@ -2,10 +2,8 @@
 
 :root {
   --cor-preto: #101828;
-  --cor-cinza: #667085;
   --cor-vermelho: #8E2424;
   --cor-branco: #FFFFFF;
-  --cor-cinza-borda: #EAECF0;
 }
 
 * {
@@ -13,7 +11,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Inter', sans-serif;
-  color: var(--cor-cinza);
+  color: #667085;
 }
 
 body {
@@ -21,7 +19,7 @@ body {
   height: 100vh;
 }
 
-/* CABEÇALHO */
+/* SEÇÃO CABEÇALHO */
 .cabecalho {
   display: flex;
   justify-content: space-around;
@@ -170,7 +168,7 @@ button {
 }
 
 .vaga {
-  border: 1px solid var(--cor-cinza-borda);
+  border: 1px solid #EAECF0;
   border-radius: 1rem;
   padding: 1.5rem 1.75rem;
   margin-bottom: 1.5rem;
@@ -240,7 +238,7 @@ button {
   line-height: 20px;
 }
 
-/* RODAPÉ */
+/* SEÇÃO RODAPÉ */
 .rodape {
   display: flex;
   flex-direction: column;
