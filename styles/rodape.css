@@ -3,9 +3,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 96px 0;
-  background: #F9FAFB;
-  gap: 2rem;
+  padding: 6rem 0;
+  background: var(--cor-fundo-cinza);
 }
 
 .rodape h2 {
@@ -13,17 +12,20 @@
   font-size: 36px;
   line-height: 44px;
   color: var(--cor-preto);
+  padding-bottom: 1.25rem;
 }
 
 .rodape p {
   font-weight: 400;
   font-size: 20px;
   line-height: 30px;
+  padding-bottom: 2.5rem;
 }
 
 .rodape form {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 2rem;
 }
 
 .rodape input {
@@ -37,8 +39,8 @@
 
 .rodape button {
   background: var(--cor-vermelho);
-  border-radius: 8px;
-  padding: 12px 20px;
+  border-radius: 0.5rem;
+  padding: 0.75rem 1.25rem;
   color: var(--cor-branco);
 }
 
