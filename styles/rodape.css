@@ -1,0 +1,50 @@
+.rodape {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 96px 0;
+  background: #F9FAFB;
+  gap: 2rem;
+}
+
+.rodape h2 {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  color: var(--cor-preto);
+}
+
+.rodape p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.rodape form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rodape input {
+  outline: none;
+  border: 1px solid #D0D5DD;
+  border-radius: 0.5rem;
+  padding-left: 1rem;
+  width: 20rem;
+  margin-right: 1rem;
+}
+
+.rodape button {
+  background: var(--cor-vermelho);
+  border-radius: 8px;
+  padding: 12px 20px;
+  color: var(--cor-branco);
+}
+
+.rodape span {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #98A2B3;
+}

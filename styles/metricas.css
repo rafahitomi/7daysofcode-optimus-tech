@@ -1,0 +1,31 @@
+.metricas {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 0 9rem;
+}
+
+.metricas div {
+  width: 17.5rem;
+  height: 10rem;
+}
+
+.metricas h2 {
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 72px;
+  color: var(--cor-vermelho);
+}
+
+.metricas h3 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--cor-preto);
+}
+
+.metricas p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}

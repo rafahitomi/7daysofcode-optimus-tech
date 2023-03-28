@@ -1,0 +1,37 @@
+.vagas__abertas {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 21rem 0 21rem;
+  font-weight: 500;
+}
+
+.vagas__abertas h2 {
+  color: var(--cor-preto);
+  font-size: 20px;
+  line-height: 30px;
+  margin: 2rem 0;
+}
+
+.vaga {
+  border: 1px solid #EAECF0;
+  border-radius: 1rem;
+  padding: 1.5rem 1.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.vaga h3 {
+  color: var(--cor-preto);
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 2rem;
+}
+
+.vaga__informacoes {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.vaga__informacoes p {
+  font-size: 16px;
+  line-height: 24px;
+}

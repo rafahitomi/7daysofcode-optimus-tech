@@ -1,0 +1,29 @@
+.sobre__nos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1.5rem;
+  padding: 6rem 0;
+}
+
+.sobre__nos h4 {
+  color: var(--cor-vermelho);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.sobre__nos h1 {
+  color: var(--cor-preto);
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 60px;
+}
+
+.sobre__nos p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  max-width: 50%;
+}
