@@ -2,12 +2,12 @@
   display: flex;
   justify-content: space-between;
   gap: 2rem;
-  padding: 0 9rem;
+  padding: 1rem 9rem;
 }
 
 .metricas div {
   width: 17.5rem;
-  height: 10rem;
+  height: 18rem;
 }
 
 .metricas h2 {
