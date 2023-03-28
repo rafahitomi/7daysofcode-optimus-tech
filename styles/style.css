@@ -12,6 +12,8 @@
   --cor-preto: #101828;
   --cor-vermelho: #8E2424;
   --cor-branco: #FFFFFF;
+  --cor-cinza: #667085;
+  --cor-fundo-cinza: #F9FAFB;
 }
 
 * {
@@ -19,12 +21,10 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Inter', sans-serif;
-  color: #667085;
+  color: var(--cor-cinza);
 }
 
 body {
   width: 100%;
   height: 100vh;
 }
-
-/* RESPONSIVIDADE */
